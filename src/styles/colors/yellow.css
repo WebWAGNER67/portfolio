@@ -1,0 +1,101 @@
+/* =================================================================== */
+/* Yellow:#ffb800
+====================================================================== */
+.yellow .cursor-inner,
+.yellow .cursor-inner.cursor-hover,
+.yellow .social__tooltip,
+.yellow .social__tooltip::after,
+.yellow .animated-bar,
+.yellow .clickbtn,
+.yellow .homecolor-box,
+.yellow .resume-section .resume-item .item-arrow::before,
+.yellow .service-line::after,
+.yellow .style-switch-wrapper .purchse-btn {
+  background-color: #ffb800;
+}
+
+.yellow .navigation ul li.active a .icon,
+.yellow .animated-text h3,
+.yellow .fixed-block .social-icons a:hover,
+.yellow .section-title .common-title span,
+.yellow .about-content .personal-infotitle span,
+.yellow .about-content .personal-title span,
+.yellow .about-content .about-you .value a,
+.yellow .about-content .social-icons li a:hover,
+.yellow .about-subtitle span,
+.yellow .testimonial-item .quote,
+.yellow .funfacts-box h3,
+.yellow .progress-line span::after,
+.yellow .resume-section .resume-item .item-title,
+.yellow .service-line,
+.yellow .testimonial-item .rating,
+.yellow .owl-dot,
+.yellow .funfacts-section .funfacts-box h3::after,
+.yellow .single-post:hover .post-content .content-title h5 > a,
+.yellow .blog-section .single-post .post-content .content-date,
+.yellow .contact-section .contact-info .list-info .info-icon i,
+.yellow .contact-section .contact-info .list-info .info-details .info-value,
+.yellow .contact-section .contact-info .list-info .info-details .info-value a,
+.yellow
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:focus,
+.yellow
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:hover,
+.yellow .blog-content .blog-header span i,
+.yellow .blog-content .blog-body .title,
+.yellow .blog-content .blog-body h4,
+.yellow .blog-content .content-title {
+  color: #ffb800;
+}
+
+.yellow .clickbtn,
+.yellow .cursor-outer,
+.yellow .style-switch-wrapper .purchse-btn {
+  border: 2px solid #ffb800;
+}
+
+.yellow .resume-section .resume-item {
+  border-left: 2px solid #ffb800;
+}
+
+.yellow .testimonial-item,
+.yellow .funfacts-section .funfacts-box {
+  border: 1px solid #ffb800;
+}
+
+.yellow .resume-section .resume-item .item-arrow::after {
+  border-left-color: #ffb800;
+}
+
+.yellow .owl-dot.active span {
+  background-color: #ffb800;
+  border-color: #ffb800;
+}
+
+.yellow .owl-dot span {
+  border: 3px solid #ffb800;
+}
+
+.yellow .bar .progress-line span,
+.yellow .switch,
+.yellow .mix .info .post {
+  background: #ffb800;
+}
+
+.yellow.cursor_animation .ring,
+.yellow.cursor_animation .ring.hovered {
+  background-color: rgba(255, 186, 19, 0.4);
+}
+
+.yellow.cursor_animation .dot {
+  background: #ffb800;
+}

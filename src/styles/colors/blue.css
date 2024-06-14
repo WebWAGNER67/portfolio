@@ -1,0 +1,102 @@
+/* =================================================================== */
+/* Blue:#104cba
+====================================================================== */
+
+.blue .cursor-inner,
+.blue .cursor-inner.cursor-hover,
+.blue .social__tooltip,
+.blue .social__tooltip::after,
+.blue .animated-bar,
+.blue .clickbtn,
+.blue .homecolor-box,
+.blue .resume-section .resume-item .item-arrow::before,
+.blue .service-line::after,
+.blue .style-switch-wrapper .purchse-btn {
+  background-color: #104cba;
+}
+
+.blue .navigation ul li.active a .icon,
+.blue .animated-text h3,
+.blue .fixed-block .social-icons a:hover,
+.blue .section-title .common-title span,
+.blue .about-content .personal-infotitle span,
+.blue .about-content .personal-title span,
+.blue .about-content .about-you .value a,
+.blue .about-content .social-icons li a:hover,
+.blue .about-subtitle span,
+.blue .testimonial-item .quote,
+.blue .funfacts-box h3,
+.blue .progress-line span::after,
+.blue .resume-section .resume-item .item-title,
+.blue .service-line,
+.blue .testimonial-item .rating,
+.blue .owl-dot,
+.blue .funfacts-section .funfacts-box h3::after,
+.blue .single-post:hover .post-content .content-title h5 > a,
+.blue .blog-section .single-post .post-content .content-date,
+.blue .contact-section .contact-info .list-info .info-icon i,
+.blue .contact-section .contact-info .list-info .info-details .info-value,
+.blue .contact-section .contact-info .list-info .info-details .info-value a,
+.blue
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:focus,
+.blue
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:hover,
+.blue .blog-content .blog-header span i,
+.blue .blog-content .blog-body .title,
+.blue .blog-content .blog-body h4,
+.blue .blog-content .content-title {
+  color: #104cba;
+}
+
+.blue .clickbtn,
+.blue .cursor-outer,
+.blue .style-switch-wrapper .purchse-btn {
+  border: 2px solid #104cba;
+}
+
+.blue .resume-section .resume-item {
+  border-left: 2px solid #104cba;
+}
+
+.blue .testimonial-item,
+.blue .funfacts-section .funfacts-box {
+  border: 1px solid #104cba;
+}
+
+.blue .resume-section .resume-item .item-arrow::after {
+  border-left-color: #104cba;
+}
+
+.blue .owl-dot.active span {
+  background-color: #104cba;
+  border-color: #104cba;
+}
+
+.blue .owl-dot span {
+  border: 3px solid #104cba;
+}
+
+.blue .bar .progress-line span,
+.blue .switch,
+.blue .mix .info .post {
+  background: #104cba;
+}
+
+.blue.cursor_animation .ring,
+.blue.cursor_animation .ring.hovered {
+  background-color: rgba(39, 83, 215, 0.4);
+}
+
+.blue.cursor_animation .dot {
+  background: #104cba;
+}

@@ -1,0 +1,39 @@
+/********************* Default-CSS *********************/
+
+body .light h1,
+body .light h2,
+body .light h3,
+body .light h4,
+body .light h5,
+body .light h6 {
+  color: #000 !important;
+}
+
+/********************* Preloader CSS *********************/
+
+.light .loader_line:before {
+  background-color: #000;
+}
+
+/********************* Preloader CSS *********************/
+
+/*********************  Common-Title CSS  *******************/
+.light .animated-bar:before {
+  background-color: #ffffff;
+}
+
+.light .animated-bar:after {
+  background-color: #ffffff;
+}
+
+/*********************  Common-Title CSS Close *******************/
+
+/*********************  Common-Btn CSS  *******************/
+
+.light .clickbtn:hover {
+  box-shadow: 0 0px 10px rgb(0 0 0 / 40%);
+  color: #000;
+  background-color: transparent;
+}
+
+/*********************  Common-Btn CSS Close *******************/

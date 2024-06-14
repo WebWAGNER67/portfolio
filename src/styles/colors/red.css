@@ -1,0 +1,102 @@
+/* =================================================================== */
+/* Red:#e1041e
+====================================================================== */
+
+.red .cursor-inner,
+.red .cursor-inner.cursor-hover,
+.red .social__tooltip,
+.red .social__tooltip::after,
+.red .animated-bar,
+.red .clickbtn,
+.red .homecolor-box,
+.red .resume-section .resume-item .item-arrow::before,
+.red .service-line::after,
+.red .style-switch-wrapper .purchse-btn {
+  background-color: #e1041e;
+}
+
+.red .navigation ul li.active a .icon,
+.red .animated-text h3,
+.red .fixed-block .social-icons a:hover,
+.red .section-title .common-title span,
+.red .about-content .personal-infotitle span,
+.red .about-content .personal-title span,
+.red .about-content .about-you .value a,
+.red .about-content .social-icons li a:hover,
+.red .about-subtitle span,
+.red .testimonial-item .quote,
+.red .funfacts-box h3,
+.red .progress-line span::after,
+.red .resume-section .resume-item .item-title,
+.red .service-line,
+.red .testimonial-item .rating,
+.red .owl-dot,
+.red .funfacts-section .funfacts-box h3::after,
+.red .single-post:hover .post-content .content-title h5 > a,
+.red .blog-section .single-post .post-content .content-date,
+.red .contact-section .contact-info .list-info .info-icon i,
+.red .contact-section .contact-info .list-info .info-details .info-value,
+.red .contact-section .contact-info .list-info .info-details .info-value a,
+.red
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:focus,
+.red
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:hover,
+.red .blog-content .blog-header span i,
+.red .blog-content .blog-body .title,
+.red .blog-content .blog-body h4,
+.red .blog-content .content-title {
+  color: #e1041e;
+}
+
+.red .clickbtn,
+.red .cursor-outer,
+.red .style-switch-wrapper .purchse-btn {
+  border: 2px solid #e1041e;
+}
+
+.red .resume-section .resume-item {
+  border-left: 2px solid #e1041e;
+}
+
+.red .testimonial-item,
+.red .funfacts-section .funfacts-box {
+  border: 1px solid #e1041e;
+}
+
+.red .resume-section .resume-item .item-arrow::after {
+  border-left-color: #e1041e;
+}
+
+.red .owl-dot.active span {
+  background-color: #e1041e;
+  border-color: #e1041e;
+}
+
+.red .owl-dot span {
+  border: 3px solid #e1041e;
+}
+
+.red .bar .progress-line span,
+.red .switch,
+.red .mix .info .post {
+  background: #e1041e;
+}
+
+.red.cursor_animation .ring,
+.red.cursor_animation .ring.hovered {
+  background-color: rgba(247, 11, 43, 0.4);
+}
+
+.red.cursor_animation .dot {
+  background: #e1041e;
+}

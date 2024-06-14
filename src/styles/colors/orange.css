@@ -1,0 +1,102 @@
+/* =================================================================== */
+/* Orange:#ff6f42
+====================================================================== */
+
+.orange .cursor-inner,
+.orange .cursor-inner.cursor-hover,
+.orange .social__tooltip,
+.orange .social__tooltip::after,
+.orange .animated-bar,
+.orange .clickbtn,
+.orange .homecolor-box,
+.orange .resume-section .resume-item .item-arrow::before,
+.orange .service-line::after,
+.orange .style-switch-wrapper .purchse-btn {
+  background-color: #ff6f42;
+}
+
+.orange .navigation ul li.active a .icon,
+.orange .animated-text h3,
+.orange .fixed-block .social-icons a:hover,
+.orange .section-title .common-title span,
+.orange .about-content .personal-infotitle span,
+.orange .about-content .personal-title span,
+.orange .about-content .about-you .value a,
+.orange .about-content .social-icons li a:hover,
+.orange .about-subtitle span,
+.orange .testimonial-item .quote,
+.orange .funfacts-box h3,
+.orange .progress-line span::after,
+.orange .resume-section .resume-item .item-title,
+.orange .service-line,
+.orange .testimonial-item .rating,
+.orange .owl-dot,
+.orange .funfacts-section .funfacts-box h3::after,
+.orange .single-post:hover .post-content .content-title h5 > a,
+.orange .blog-section .single-post .post-content .content-date,
+.orange .contact-section .contact-info .list-info .info-icon i,
+.orange .contact-section .contact-info .list-info .info-details .info-value,
+.orange .contact-section .contact-info .list-info .info-details .info-value a,
+.orange
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:focus,
+.orange
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:hover,
+.orange .blog-content .blog-header span i,
+.orange .blog-content .blog-body .title,
+.orange .blog-content .blog-body h4,
+.orange .blog-content .content-title {
+  color: #ff6f42;
+}
+
+.orange .clickbtn,
+.orange .cursor-outer,
+.orange .style-switch-wrapper .purchse-btn {
+  border: 2px solid #ff6f42;
+}
+
+.orange .resume-section .resume-item {
+  border-left: 2px solid #ff6f42;
+}
+
+.orange .testimonial-item,
+.orange .funfacts-section .funfacts-box {
+  border: 1px solid #ff6f42;
+}
+
+.orange .resume-section .resume-item .item-arrow::after {
+  border-left-color: #ff6f42;
+}
+
+.orange .owl-dot.active span {
+  background-color: #ff6f42;
+  border-color: #ff6f42;
+}
+
+.orange .owl-dot span {
+  border: 3px solid #ff6f42;
+}
+
+.orange .bar .progress-line span,
+.orange .switch,
+.orange .mix .info .post {
+  background: #ff6f42;
+}
+
+.orange.cursor_animation .ring,
+.orange.cursor_animation .ring.hovered {
+  background-color: rgba(255, 101, 28, 0.4);
+}
+
+.orange.cursor_animation .dot {
+  background: #ff6f42;
+}

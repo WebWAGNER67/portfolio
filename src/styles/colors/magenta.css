@@ -1,0 +1,102 @@
+/* =================================================================== */
+/* magenta:#fb2398
+====================================================================== */
+
+.magenta .cursor-inner,
+.magenta .cursor-inner.cursor-hover,
+.magenta .social__tooltip,
+.magenta .social__tooltip::after,
+.magenta .animated-bar,
+.magenta .clickbtn,
+.magenta .homecolor-box,
+.magenta .resume-section .resume-item .item-arrow::before,
+.magenta .service-line::after,
+.magenta .style-switch-wrapper .purchse-btn {
+  background-color: #fb2398;
+}
+
+.magenta .navigation ul li.active a .icon,
+.magenta .animated-text h3,
+.magenta .fixed-block .social-icons a:hover,
+.magenta .section-title .common-title span,
+.magenta .about-content .personal-infotitle span,
+.magenta .about-content .personal-title span,
+.magenta .about-content .about-you .value a,
+.magenta .about-content .social-icons li a:hover,
+.magenta .about-subtitle span,
+.magenta .testimonial-item .quote,
+.magenta .funfacts-box h3,
+.magenta .progress-line span::after,
+.magenta .resume-section .resume-item .item-title,
+.magenta .service-line,
+.magenta .testimonial-item .rating,
+.magenta .owl-dot,
+.magenta .funfacts-section .funfacts-box h3::after,
+.magenta .single-post:hover .post-content .content-title h5 > a,
+.magenta .blog-section .single-post .post-content .content-date,
+.magenta .contact-section .contact-info .list-info .info-icon i,
+.magenta .contact-section .contact-info .list-info .info-details .info-value,
+.magenta .contact-section .contact-info .list-info .info-details .info-value a,
+.magenta
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:focus,
+.magenta
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:hover,
+.magenta .blog-content .blog-header span i,
+.magenta .blog-content .blog-body .title,
+.magenta .blog-content .blog-body h4,
+.magenta .blog-content .content-title {
+  color: #fb2398;
+}
+
+.magenta .clickbtn,
+.magenta .cursor-outer,
+.magenta .style-switch-wrapper .purchse-btn {
+  border: 2px solid #fb2398;
+}
+
+.magenta .resume-section .resume-item {
+  border-left: 2px solid #fb2398;
+}
+
+.magenta .testimonial-item,
+.magenta .funfacts-section .funfacts-box {
+  border: 1px solid #fb2398;
+}
+
+.magenta .resume-section .resume-item .item-arrow::after {
+  border-left-color: #fb2398;
+}
+
+.magenta .owl-dot.active span {
+  background-color: #fb2398;
+  border-color: #fb2398;
+}
+
+.magenta .owl-dot span {
+  border: 3px solid #fb2398;
+}
+
+.magenta .bar .progress-line span,
+.magenta .switch,
+.magenta .mix .info .post {
+  background: #fb2398;
+}
+
+.magenta.cursor_animation .ring,
+.magenta.cursor_animation .ring.hovered {
+  background-color: rgba(221, 80, 129, 0.4);
+}
+
+.magenta.cursor_animation .dot {
+  background: #fb2398;
+}

@@ -1,0 +1,19 @@
+@media only screen and (max-width: 576px) {
+  .light .navigation ul li a .icon {
+    color: #888;
+  }
+
+  .light li.active {
+    background-color: #212121;
+
+    border: 6px solid #111;
+  }
+  .light li.active::before {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .light li.active::after {
+    background-color: transparent;
+    box-shadow: none;
+  }
+}

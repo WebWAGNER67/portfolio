@@ -1,0 +1,102 @@
+/* =================================================================== */
+/* Purple:#8f33ff
+====================================================================== */
+
+.purple .cursor-inner,
+.purple .cursor-inner.cursor-hover,
+.purple .social__tooltip,
+.purple .social__tooltip::after,
+.purple .animated-bar,
+.purple .clickbtn,
+.purple .homecolor-box,
+.purple .resume-section .resume-item .item-arrow::before,
+.purple .service-line::after,
+.purple .style-switch-wrapper .purchse-btn {
+  background-color: #8f33ff;
+}
+
+.purple .navigation ul li.active a .icon,
+.purple .animated-text h3,
+.purple .fixed-block .social-icons a:hover,
+.purple .section-title .common-title span,
+.purple .about-content .personal-infotitle span,
+.purple .about-content .personal-title span,
+.purple .about-content .about-you .value a,
+.purple .about-content .social-icons li a:hover,
+.purple .about-subtitle span,
+.purple .testimonial-item .quote,
+.purple .funfacts-box h3,
+.purple .progress-line span::after,
+.purple .resume-section .resume-item .item-title,
+.purple .service-line,
+.purple .testimonial-item .rating,
+.purple .owl-dot,
+.purple .funfacts-section .funfacts-box h3::after,
+.purple .single-post:hover .post-content .content-title h5 > a,
+.purple .blog-section .single-post .post-content .content-date,
+.purple .contact-section .contact-info .list-info .info-icon i,
+.purple .contact-section .contact-info .list-info .info-details .info-value,
+.purple .contact-section .contact-info .list-info .info-details .info-value a,
+.purple
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:focus,
+.purple
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:hover,
+.purple .blog-content .blog-header span i,
+.purple .blog-content .blog-body .title,
+.purple .blog-content .blog-body h4,
+.purple .blog-content .content-title {
+  color: #8f33ff;
+}
+
+.purple .clickbtn,
+.purple .cursor-outer,
+.purple .style-switch-wrapper .purchse-btn {
+  border: 2px solid #8f33ff;
+}
+
+.purple .resume-section .resume-item {
+  border-left: 2px solid #8f33ff;
+}
+
+.purple .testimonial-item,
+.purple .funfacts-section .funfacts-box {
+  border: 1px solid #8f33ff;
+}
+
+.purple .resume-section .resume-item .item-arrow::after {
+  border-left-color: #8f33ff;
+}
+
+.purple .owl-dot.active span {
+  background-color: #8f33ff;
+  border-color: #8f33ff;
+}
+
+.purple .owl-dot span {
+  border: 3px solid #8f33ff;
+}
+
+.purple .bar .progress-line span,
+.purple .switch,
+.purple .mix .info .post {
+  background: #8f33ff;
+}
+
+.purple.cursor_animation .ring,
+.purple.cursor_animation .ring.hovered {
+  background-color: rgba(131, 21, 231, 0.4);
+}
+
+.purple.cursor_animation .dot {
+  background: #8f33ff;
+}

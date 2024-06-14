@@ -1,0 +1,582 @@
+/********************* Default-CSS *********************/
+input[type="file"]::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+input[type="file"]::-moz-file-upload-button {
+  cursor: pointer;
+}
+
+input[type="file"]::-ms-file-upload-button {
+  cursor: pointer;
+}
+
+input[type="file"]::-o-file-upload-button {
+  cursor: pointer;
+}
+
+input[type="file"],
+a[href],
+input[type="submit"],
+input[type="button"],
+input[type="image"],
+label[for],
+select,
+button,
+.pointer {
+  cursor: pointer;
+}
+
+::-moz-focus-inner {
+  border: 0px solid transparent;
+}
+
+::-webkit-focus-inner {
+  border: 0px solid transparent;
+}
+
+*::-moz-selection {
+  color: #fff;
+  background: #111;
+}
+
+*::-webkit-selection {
+  color: #fff;
+  background: #111;
+}
+
+*::-webkit-input-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+html body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+canvas {
+  z-index: 0 !important;
+  position: absolute;
+  top: 0;
+}
+
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+a,
+span,
+div a:hover,
+div a:active,
+div a i:active,
+button {
+  text-decoration: none;
+}
+
+*::after,
+*::before,
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.no-list li,
+.no-list ul,
+.no-list ol,
+footer li,
+footer ul,
+footer ol,
+header li,
+header ul,
+header ol {
+  list-style: inside none none;
+}
+
+.no-list ul,
+.no-list ol,
+footer ul,
+footer ol,
+header ul,
+header ol {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  outline: none;
+  color: #555;
+}
+
+a:hover {
+  color: #111;
+}
+
+body .clearfix,
+body .clear {
+  clear: both;
+  line-height: 100%;
+}
+
+body .clearfix {
+  height: auto;
+}
+
+* {
+  outline: none !important;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul:after,
+li:after,
+.clr:after,
+.clearfix:after,
+.container:after,
+.grve-container:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+div input,
+div select,
+div textarea,
+div button {
+  font-family: "Lato", sans-serif;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: "Lato", sans-serif;
+  line-height: 150%;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 0 15px;
+}
+
+body h1:last-child,
+body h2:last-child,
+body h3:last-child,
+body h4:last-child,
+body h5:last-child,
+body h6:last-child {
+  margin-bottom: 0;
+}
+
+div select {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+div select option {
+  font-size: 13px;
+  color: #333;
+  padding: 2px 5px;
+}
+
+img {
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+body p {
+  color: #888;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+body p:empty {
+  margin: 0;
+  line-height: 0;
+}
+
+p strong {
+  font-weight: bold;
+}
+
+.a-left {
+  text-align: left;
+}
+
+.a-right {
+  text-align: right;
+}
+
+.a-center {
+  text-align: center;
+}
+
+label em {
+  color: #ff0000;
+  display: inline-block;
+  font-style: normal;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.container {
+  max-width: 100%;
+}
+
+/*********************  scroll Hide  *********************/
+html.no-scroll {
+  overflow: hidden;
+}
+
+html.no-scroll body {
+  overflow: hidden;
+  height: 100%;
+}
+
+/*********************  Default-CSS close  *********************/
+
+/*********************  Gapping  *********************/
+
+/*********************  Gapping close  *********************/
+
+/********************* Preloader CSS *********************/
+
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 99999;
+  display: flex;
+}
+
+#preloader:before,
+#preloader:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+  background-color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+#preloader:after {
+  left: auto;
+  right: 0;
+}
+
+#preloader .loader_line {
+  margin: auto;
+  width: 1px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.loader_line:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #000;
+  -webkit-animation: lineheight 1000ms ease-in-out 0s forwards;
+  -o-animation: lineheight 1000ms ease-in-out 0s forwards;
+  animation: lineheight 1000ms ease-in-out 0s forwards;
+}
+
+.loader_line:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #bbb;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-animation: lineround 1200ms linear 0s infinite;
+  -o-animation: lineround 1200ms linear 0s infinite;
+  animation: lineround 1200ms linear 0s infinite;
+  animation-delay: 2000ms;
+}
+
+@keyframes lineheight {
+  0% {
+    height: 0%;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes lineround {
+  0% {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  100% {
+    -webkit-transform: translateY(200%);
+    -ms-transform: translateY(200%);
+    -o-transform: translateY(200%);
+    transform: translateY(200%);
+  }
+}
+
+/*hiding all*/
+.preloaded .loader_line:after {
+  opacity: 0;
+}
+
+.preloaded .loader_line {
+  opacity: 0;
+  height: 100% !important;
+}
+
+.preloaded:before,
+.preloaded:after {
+  -webkit-animation: preloadedzero 300ms ease-in-out 500ms forwards;
+  -o-animation: preloadedzero 300ms ease-in-out 500ms forwards;
+  animation: preloadedzero 300ms ease-in-out 500ms forwards;
+}
+
+@keyframes preloadedzero {
+  0% {
+    width: 50%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}
+
+/********************* Preloader CSS *********************/
+
+/********************* Tool Tip CSS *******************/
+.social__tooltip {
+  opacity: 0;
+  position: absolute;
+  padding: 0.5rem 1rem;
+  background-color: #ff6f42;
+  color: #fff;
+  font-size: 1rem;
+  white-space: nowrap;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  pointer-events: none;
+}
+
+.social__tooltip::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #ff6f42;
+  border-radius: 3px;
+}
+
+.social__tooltip-bottom {
+  left: 0;
+  transform: translateX(-100%);
+}
+
+.social__tooltip-bottom::after {
+  top: 50%;
+  transform: translate(50%, -50%) rotate(45deg);
+  right: 1px;
+}
+
+.social__content:hover .social__tooltip-bottom {
+  opacity: 1;
+  bottom: -1rem;
+}
+
+.list:hover .social__tooltip {
+  opacity: 1;
+}
+
+.list .active div {
+  left: -10px;
+}
+
+/********************* Tool Tip CSS Close *******************/
+
+/*********************  Common-Css  *******************/
+.clr:after,
+ul:after,
+.clearfix:after,
+li:after,
+.grve-container:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+/*********************  Common-Title CSS  *******************/
+.common-desctiption {
+  color: #888;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+h1.common-title {
+  font-size: 55px;
+  line-height: 1.2;
+  font-weight: bold;
+  position: relative;
+  word-spacing: 5px;
+  text-align: center;
+}
+
+.animated-bar {
+  background-color: #ff6f42;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 0;
+  margin: 0 auto 0 auto;
+  position: relative;
+  right: 0;
+  width: 100px;
+  border-radius: 4px;
+}
+
+.animated-bar:before {
+  background-color: #212121;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 4px;
+  left: 8px;
+  -webkit-animation: heading-move 10s infinite linear;
+  animation: heading-move 10s infinite linear;
+}
+
+.animated-bar:after {
+  background-color: #212121;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 4px;
+  left: 0;
+  -webkit-animation: heading-move 10s infinite linear;
+  animation: heading-move 10s infinite linear;
+}
+
+/*********************  Common-Title CSS Close *******************/
+
+/*********************  Common-Btn CSS  *******************/
+
+.clickbtn {
+  padding: 10px 10px;
+  background-color: #ff6f42;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  border: 2px solid #ff6f42;
+  font-size: 15px;
+  margin-right: 10px;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.clickbtn:hover {
+  box-shadow: 0 0 25px rgb(0 0 0 / 85%);
+  transform: rotate(10deg);
+  background-color: transparent;
+  color: #fff;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.home-btn {
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar-overlay {
+  position: fixed;
+  z-index: 49;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.sidebar-overlay.active {
+  display: block;
+}
+/*********************  Common-Btn CSS Close *******************/

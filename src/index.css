@@ -1,0 +1,22 @@
+/* Import css files */
+@import "styles/fontawesome/all.css"; /* Styles */
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "owl.carousel/dist/assets/owl.carousel.css";
+@import "@fancyapps/fancybox/dist/jquery.fancybox.min.css";
+@import "animate.css";
+@import "styles/colors/switch.css"; /* Styles */
+@import "styles/common.css"; /* Common */
+@import "styles/styles.css"; /* Styles */
+@import "styles/responsive.css"; /* responsive */
+@import "styles/colors/orange.css"; /* orange */
+@import "styles/colors/blue.css"; /* blue */
+@import "styles/colors/golden.css"; /* golden */
+@import "styles/colors/green.css"; /* green */
+@import "styles/colors/magenta.css"; /* magenta */
+@import "styles/colors/purple.css"; /* purple */
+@import "styles/colors/red.css"; /* red */
+@import "styles/colors/violet.css"; /* violet */
+@import "styles/colors/yellow.css"; /* yellow */
+@import "styles/colors/yellowgreen.css"; /* yellowgreen */
+@import "styles/light-common.css"; /* Light Common Styles */
+@import "styles/light-styles.css"; /* Light Color Styles */

@@ -1,0 +1,102 @@
+/* =================================================================== */
+/* Green:#04da3f
+====================================================================== */
+
+.green .cursor-inner,
+.green .cursor-inner.cursor-hover,
+.green .social__tooltip,
+.green .social__tooltip::after,
+.green .animated-bar,
+.green .clickbtn,
+.green .homecolor-box,
+.green .resume-section .resume-item .item-arrow::before,
+.green .service-line::after,
+.green .style-switch-wrapper .purchse-btn {
+  background-color: #04da3f;
+}
+
+.green .navigation ul li.active a .icon,
+.green .animated-text h3,
+.green .fixed-block .social-icons a:hover,
+.green .section-title .common-title span,
+.green .about-content .personal-infotitle span,
+.green .about-content .personal-title span,
+.green .about-content .about-you .value a,
+.green .about-content .social-icons li a:hover,
+.green .about-subtitle span,
+.green .testimonial-item .quote,
+.green .funfacts-box h3,
+.green .progress-line span::after,
+.green .resume-section .resume-item .item-title,
+.green .service-line,
+.green .testimonial-item .rating,
+.green .owl-dot,
+.green .funfacts-section .funfacts-box h3::after,
+.green .single-post:hover .post-content .content-title h5 > a,
+.green .blog-section .single-post .post-content .content-date,
+.green .contact-section .contact-info .list-info .info-icon i,
+.green .contact-section .contact-info .list-info .info-details .info-value,
+.green .contact-section .contact-info .list-info .info-details .info-value a,
+.green
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:focus,
+.green
+  .contact-section
+  .contact-info
+  .list-info
+  .info-details
+  .info-value
+  a:hover,
+.green .blog-content .blog-header span i,
+.green .blog-content .blog-body .title,
+.green .blog-content .blog-body h4,
+.green .blog-content .content-title {
+  color: #04da3f;
+}
+
+.green .clickbtn,
+.green .cursor-outer,
+.green .style-switch-wrapper .purchse-btn {
+  border: 2px solid #04da3f;
+}
+
+.green .resume-section .resume-item {
+  border-left: 2px solid #04da3f;
+}
+
+.green .testimonial-item,
+.green .funfacts-section .funfacts-box {
+  border: 1px solid #04da3f;
+}
+
+.green .resume-section .resume-item .item-arrow::after {
+  border-left-color: #04da3f;
+}
+
+.green .owl-dot.active span {
+  background-color: #04da3f;
+  border-color: #04da3f;
+}
+
+.green .owl-dot span {
+  border: 3px solid #04da3f;
+}
+
+.green .bar .progress-line span,
+.green .switch,
+.green .mix .info .post {
+  background: #04da3f;
+}
+
+.green.cursor_animation .ring,
+.green.cursor_animation .ring.hovered {
+  background-color: rgba(149, 203, 40, 0.4);
+}
+
+.green.cursor_animation .dot {
+  background: #04da3f;
+}

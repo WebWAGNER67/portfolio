@@ -1,0 +1,357 @@
+/********************* Header section *******************/
+.light .header-holder {
+  background-color: #eee;
+}
+
+.light .navigation {
+  background-color: #f9f9f9;
+}
+
+.light li.active {
+  border: 6px solid #eee;
+  background-color: #fff;
+  background-image: none;
+}
+
+.light li.active::before {
+  box-shadow: none;
+}
+
+.light li.active::after {
+  box-shadow: none;
+}
+
+/********************* Header section Close *******************/
+
+/*********************  Scrollbar-Section *******************/
+
+.light ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/*********************  Scrollbar-Section close  *******************/
+
+/*********************  Section Part *******************/
+.light section {
+  background-color: #eee;
+}
+
+.light .common_bg {
+  background-color: #fff;
+}
+
+.light .homecolor-box {
+  box-shadow: 0 0 10px rgb(0 0 0 / 40%);
+}
+
+/********************* Section Part Close  *******************/
+
+/********************* Home Section-page  *******************/
+.light .home-profile img {
+  box-shadow: 0 0 20px rgb(0 0 0 / 60%);
+}
+
+.light .home-profile.particles-js {
+  box-shadow: 0 0 20px rgb(0 0 0 / 60%);
+}
+
+.light .glitch-img-warp {
+  box-shadow: 0 0 20px rgb(0 0 0 / 60%);
+}
+
+.light .card {
+  box-shadow: 0 0 25px rgb(0 0 0 / 85%);
+}
+
+.light .glitch-img {
+  box-shadow: 0 0 25px rgb(0 0 0 / 85%);
+}
+
+/*********************  Social media icons  *******************/
+
+/*********************  About Section-page *******************/
+
+.light .profile-photo img {
+  box-shadow: 0 0 20px rgb(0 0 0 / 60%);
+}
+
+.light .about-you {
+  color: #000;
+}
+
+.light .about-content .about-you .title {
+  color: #888;
+}
+
+.light .about-content .about-you .value a:hover {
+  color: #888;
+}
+
+.light .about-content .social-icons::before {
+  background-color: rgb(0 0 0 / 25%);
+}
+
+.light .about-content .social-icons li:not(:last-child) {
+  color: #fff;
+}
+
+.light .about-content .social-icons li a {
+  color: #000;
+}
+
+.light .fixed-block .social-icons a {
+  text-shadow: none;
+}
+
+/*********************  Resume section *******************/
+
+.light .resume-section .resume-item {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+.light .resume-section .resume-item .item-details {
+  color: #000;
+}
+
+/*********************  Resume section Close *******************/
+
+/*********************  Skill Bar Section *******************/
+
+.light .skill-bars {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+.light .skill-bars .bar .info span {
+  color: #000;
+}
+
+.light .skill-bars .bar .progress-line {
+  background: #f0f0f0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05), 0 0 0px rgb(0 0 0 / 85%);
+}
+
+.light .progress-line span::before {
+  border-top-color: #fff;
+}
+
+.light .progress-line span::after {
+  background: #fdfdfd;
+}
+
+/*********************  Skill Bar Section Close *******************/
+
+/*********************  service Section *******************/
+
+.light .services-box .service-item {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+.light .services-box .service-item:hover {
+  background: linear-gradient(to right bottom, #eaeaea, #c6c6c6);
+}
+
+.light .services-box .service-item i {
+  color: #000;
+}
+
+/*********************  service Section Close *******************/
+/* Testiminials */
+
+.light .testimonial-item {
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+.light .testimonial-item .testimonial-img {
+  box-shadow: 0 0 20px rgb(0 0 0 / 60%);
+}
+
+/* Testiminials end */
+
+/*********************  Fun Facts Service *******************/
+.light .funfacts-section .funfacts-box {
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+/*********************  Fun Facts Service Close *******************/
+/*********************  About Section-page End *******************/
+
+/*********************  protfolio Section-page Start *******************/
+
+.light .mixitup-control-active {
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+  color: #000;
+}
+
+.light .mix:before,
+.light .mix:after {
+  background: linear-gradient(to right bottom, #000000, #1d1d1d);
+}
+
+.light .mix .info .title {
+  color: #fff !important;
+}
+
+.light .mix .info .post {
+  color: #fff;
+}
+
+.light .mix .info .post:hover {
+  background-color: #000;
+}
+
+.light .mix img {
+  box-shadow: 0 0 10px rgb(0 0 0 / 35%);
+}
+
+/*********************  protfolio Section-page Close *******************/
+
+/*********************  Bolg Section-page Start *******************/
+
+.light .blog-section .single-post {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+.light .post-content .content-title h5 > a {
+  color: #000;
+}
+
+/*  blog animation  */
+
+.light .ih-item.square {
+  box-shadow: 0 0 10px rgb(0 0 0 / 40%);
+}
+
+/*********************  Bolg Section-page Close *******************/
+
+/*********************  Contact Section-page Start *******************/
+
+.light .contact-section .contact-form .form-group .form-control {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+  border-bottom: 1px solid #ffffff;
+}
+
+.light
+  .contact-section
+  .contact-form
+  .form-group
+  .form-control:-webkit-autofill,
+.light
+  .contact-section
+  .contact-form
+  .form-group
+  .form-control:-webkit-autofill:active,
+.light
+  .contact-section
+  .contact-form
+  .form-group
+  .form-control:-webkit-autofill:focus,
+.light
+  .contact-section
+  .contact-form
+  .form-group
+  .form-control:-webkit-autofill:hover {
+  -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 40%);
+  -webkit-text-fill-color: #777 !important;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.light
+  .contact-section
+  .contact-form
+  .form-group
+  .form-control::-webkit-input-placeholder {
+  color: #777;
+}
+
+.light
+  .contact-section
+  .contact-form
+  .form-group
+  .form-control::-moz-placeholder {
+  color: #777;
+}
+
+.light
+  .contact-section
+  .contact-form
+  .form-group
+  .form-control:-ms-input-placeholder {
+  color: #777;
+}
+
+.light
+  .contact-section
+  .contact-form
+  .form-group
+  .form-control::-ms-input-placeholder {
+  color: #777;
+}
+
+.light .contact-section .contact-form .form-group .form-control,
+.light .contact-section .contact-form .form-group .form-control::placeholder {
+  color: #777;
+}
+
+.light .contact-section .contact-form .form-group .form-control:focus {
+  box-shadow: 0 0 10px rgb(137 137 137 / 85%);
+}
+
+.light .contact-section .contact-form .form-submit #contact-submit.wait {
+  background-color: #777;
+  border-color: #777;
+}
+
+.light .contact-section .contact-form .form-submit #contact-submit.success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.light .contact-section .contact-form .form-submit #contact-submit.error {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.light .contact-section .contact-info .list-info .info-details {
+  border-left: rgba(255, 255, 255, 0.25);
+}
+
+.light .contact-section .social-icons::before {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+/*********************  Footer  *******************/
+.light .footer {
+  color: #888;
+}
+
+.light .footer i {
+  color: #ef2e41;
+  position: relative;
+}
+
+/*********************  Footer Close  *******************/
+/*********************  Contact Section-page Close *******************/
+
+/*********************  Blog-Pages *******************/
+.light .blog-content .blog-header span {
+  color: #888;
+}
+
+.light .blog-content img {
+  box-shadow: 0 0 10px rgb(0 0 0 / 40%);
+}
+
+.light .blog-content .date {
+  color: #888;
+}
+
+.light .style-switch-wrapper h4 {
+  color: #fff !important;
+}
+/*********************  Blog-Pages Close  *******************/
