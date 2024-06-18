@@ -66,7 +66,7 @@ const Home = () => {
                       <li onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}><Link to="/"><i className="fab fa-instagram-square"></i></Link></li>
                     </ul>
                   </div>
-                  <p className="lorem-text animate__animated animate__zoomIn animate__delay-2-5s">I am a freelancer based in the United Kingdom and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.
+                  <p className="lorem-text animate__animated animate__zoomIn animate__delay-2-5s">Développeur passionné, j'ai débuté en autodidacte, développant une solide base technique et une curiosité insatiable. J'ai ensuite suivi des formations ciblées pour renforcer mes compétences. Toujours en quête de perfection, je considère l'apprentissage comme un voyage sans fin et je saisis chaque opportunité pour approfondir mes connaissances et relever de nouveaux défis.
                   </p>
                   <div className="home-btn">
                     <Link to={"/contact"} className="clickbtn hire-me animate__animated animate__fadeInTopLeft animate__delay-3s" onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}>Me contacter</Link>

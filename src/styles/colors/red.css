@@ -100,3 +100,8 @@
 .red.cursor_animation .dot {
   background: #e1041e;
 }
+
+
+.red li > span {
+  color: #e1041e;
+}

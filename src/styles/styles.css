@@ -879,7 +879,6 @@ li {
 .mix {
   margin: 0 0 20px;
   position: relative;
-  text-align: center;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -913,8 +912,8 @@ li {
 .mix:hover img {
   filter: hue-rotate(50deg);
 }
-
 .mix .info {
+  text-align: center;
   width: 100%;
   padding: 0 20px;
   opacity: 0;
@@ -974,6 +973,9 @@ ul.container {
 .mix img {
   box-shadow: 0 0 10px rgb(0 0 0 / 85%);
   border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .fancybox-image,
@@ -1463,4 +1465,12 @@ ul.container {
 
 .cursor_animation .dot.hovered {
   display: none;
+}
+
+.main-img-mobile {
+  padding: 40px;
+}
+
+li > span {
+  color: #ff6f42;
 }

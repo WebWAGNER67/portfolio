@@ -100,3 +100,8 @@
 .magenta.cursor_animation .dot {
   background: #fb2398;
 }
+
+
+.magenta li > span {
+  color: #fb2398;
+}

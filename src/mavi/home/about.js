@@ -4,7 +4,7 @@ import { saveAs } from 'file-saver';
 import OwlCarousel from 'react-owl-carousel';
 import FunFactsBox from './FunFactsBox';
 import { MouseContext } from "../context/mouseContext";
-import Simple from '../../images/profile/simple.jpg'
+import Simple from '../../images/profile/logo.png'
 import Wrap from '../../images/profile/wrap.jpg'
 import Partical from '../../images/profile/partical.jpg'
 import Water from '../../images/profile/water.jpg'

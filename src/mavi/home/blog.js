@@ -1,59 +1,33 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom';
 import { MouseContext } from "../context/mouseContext";
-import Blog1 from '../../images/blog/01.jpg'
-import Blog2 from '../../images/blog/02.jpg'
-import Blog3 from '../../images/blog/03.jpg'
-import Blog4 from '../../images/blog/04.jpg'
-import Blog5 from '../../images/blog/05.jpg'
-import Blog6 from '../../images/blog/06.jpg'
+import Item1 from '../../images/protfolio/gestscol.png'
+import Item2 from '../../images/protfolio/festivalduhoublon.png'
+import Item3 from '../../images/protfolio/jeuduschlange.png'
+import Item4 from '../../images/protfolio/eaufaitsacrise.png'
+import Item5 from '../../images/protfolio/globethree.png'
+import Item6 from '../../images/protfolio/environnementthree.png'
 import { Helmet } from 'react-helmet';
+import blogData from '../../datas/blog.json'
 
-
-const blogData = [
-  {
-    id: 1,
-    image: Blog1,
-    date: '31 Dec, 2023',
-    title: 'Women in Web Design: How To Achieve Success',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-  },
-  {
-    id: 2,
-    image: Blog2,
-    date: '28 Dec, 2023',
-    title: 'The Services provide for designs',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-  },
-  {
-    id: 3,
-    image: Blog3,
-    date: '25 Dec, 2023',
-    title: 'mobile app landing design & app maintain',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-  },
-  {
-    id: 4,
-    image: Blog4,
-    date: '20 Dec, 2023',
-    title: 'How to Work Better: Efficiency Tools Every Logo Designer Needs',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-  },
-  {
-    id: 5,
-    image: Blog5,
-    date: '10 Dec, 2023',
-    title: 'Why can Hill Planet help you in the development of your website?',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-  },
-  {
-    id: 6,
-    image: Blog6,
-    date: '23 Dec, 2023',
-    title: '30 Beautiful Google Fonts for Your Website',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-  },
-];
+const getBlogImage = (id) => {
+  switch(id) {
+    case 1:
+      return Item1;
+    case 2:
+      return Item2;
+    case 3:
+      return Item3;
+    case 4:
+      return Item4;
+    case 5:
+      return Item5;
+    case 6:
+      return Item6;
+    default:
+      return Item1; // or a default image
+  }
+}
 
 const Blog = () => {
   const { cursorChangeHandler } = useContext(MouseContext);
@@ -110,15 +84,17 @@ const Blog = () => {
                   <div key={blog.id} className="col-lg-4 col-md-6 col-sm-12">
                     <div className="single-post">
                       <div className="ih-item square effect">
-                        <Link to={`/blog-single`} onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}>
-                          <div className="img"><img src={blog.image} alt="img" /></div>
+                        <Link to={`/blog/${blog.id}`} onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}>
+                          <div className="img">
+                            <img src={getBlogImage(blog.id)} alt="img" />
+                          </div>
                         </Link>
                       </div>
                       <div className="card-body post-content">
                         <div className="content-date">{blog.date}</div>
                         <div className="content-title">
                           <h5>
-                            <Link to={`/blog-single`} onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}>
+                            <Link to={`/blog/${blog.id}`} onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}>
                               {blog.title}
                             </Link>
                           </h5>

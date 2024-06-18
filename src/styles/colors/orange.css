@@ -100,3 +100,8 @@
 .orange.cursor_animation .dot {
   background: #ff6f42;
 }
+
+
+.orange li > span {
+  color: #ff6f42;
+}

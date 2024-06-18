@@ -100,3 +100,8 @@
 .purple.cursor_animation .dot {
   background: #8f33ff;
 }
+
+
+.purple li > span {
+  color: #8f33ff;
+}

@@ -99,3 +99,8 @@
 .yellow.cursor_animation .dot {
   background: #ffb800;
 }
+
+
+.yellow li > span {
+  color: #ffb800;
+}

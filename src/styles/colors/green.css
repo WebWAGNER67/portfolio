@@ -100,3 +100,8 @@
 .green.cursor_animation .dot {
   background: #04da3f;
 }
+
+
+.green li > span {
+  color: #04da3f;
+}

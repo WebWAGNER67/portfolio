@@ -221,13 +221,17 @@ img {
   height: auto;
 }
 
-body p {
+body p, ul, li {
   color: #888;
   font-family: "Lato", sans-serif;
   font-size: 16px;
   line-height: 1.6;
   margin: 0 0 15px;
   padding: 0;
+}
+
+ul>li {
+  list-style-type: square;
 }
 
 body p:empty {

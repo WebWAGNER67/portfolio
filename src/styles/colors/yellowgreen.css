@@ -111,3 +111,8 @@
 .yellowgreen.cursor_animation .dot {
   background: #95cb28;
 }
+
+
+.yellowgreen li > span {
+  color: #95cb28;
+}

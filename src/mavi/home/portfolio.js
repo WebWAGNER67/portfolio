@@ -2,14 +2,12 @@ import React, { useEffect } from 'react';
 import mixitup from 'mixitup';
 import $ from 'jquery';
 import '@fancyapps/fancybox';
-import Item1 from '../../images/protfolio/item-1.jpg'
-import Item2 from '../../images/protfolio/item-2.jpg'
-import Item3 from '../../images/protfolio/item-3.jpg'
-import Item4 from '../../images/protfolio/item-4.jpg'
-import Item5 from '../../images/protfolio/item-5.jpg'
-import Item6 from '../../images/protfolio/item-6.jpg'
-import Item7 from '../../images/protfolio/item-7.jpg'
-import Item8 from '../../images/protfolio/item-8.jpg';
+import Item1 from '../../images/protfolio/gestscol.png'
+import Item2 from '../../images/protfolio/festivalduhoublon.png'
+import Item3 from '../../images/protfolio/jeuduschlange.png'
+import Item4 from '../../images/protfolio/eaufaitsacrise.png'
+import Item5 from '../../images/protfolio/globethree.png'
+import Item6 from '../../images/protfolio/environnementthree.png'
 import { Helmet } from 'react-helmet';
 
 const Portfolio = () => {
@@ -112,7 +110,7 @@ const Portfolio = () => {
                     </li>
                     {/* Mix Content-Box */}
                     <li className="mix seul front back col-xl-3 col-lg-4 col-md-6">
-                      <a href="https://test.ericwagner.fr">
+                      <a href="https://test.ericwagner.fr" target='_blank'>
                         <img src={Item2} alt="Image-description" />
                         <div className="info">
                           <h3 className="title">Festival du Houblon</h3>
@@ -121,62 +119,42 @@ const Portfolio = () => {
                       </a>
                     </li>
                     {/* Mix Content Box */}
-                    <li className="mix uiuxdesign graphic col-xl-3 col-lg-4 col-md-6">
-                      <a href={Item3} data-fancybox="gallery">
+                    <li className="mix seul front col-xl-3 col-lg-4 col-md-6">
+                      <a href="https://snake.ericwagner.fr" target='_blank'>
                         <img src={Item3} alt="Image-description" />
                         <div className="info">
-                          <h3 className="title">UI-UX Design</h3>
-                          <span className="post">project</span>
+                          <h3 className="title">Jeu du Schlange</h3>
+                          <span className="post">Projet</span>
                         </div>
                       </a>
                     </li>
                     {/* Mix Content Box */}
-                    <li className="mix webdevelopment webdesign col-xl-3 col-lg-4 col-md-6">
-                      <a href={Item4} data-fancybox="gallery">
+                    <li className="mix groupe front col-xl-3 col-lg-4 col-md-6">
+                      <a href="https://eau-fait-sa-crise.ericwagner.fr/" target='_blank'>
                         <img src={Item4} alt="Image-description" />
                         <div className="info">
-                          <h3 className="title">Web Develoment</h3>
-                          <span className="post">project</span>
+                          <h3 className="title">Eau fait sa crise</h3>
+                          <span className="post">Projet</span>
                         </div>
                       </a>
                     </li>
                     {/* Mix Content Box */}
-                    <li className="mix webdesign col-xl-3 col-lg-4 col-md-6">
-                      <a href={Item5} data-fancybox="gallery">
+                    <li className="mix seul front col-xl-3 col-lg-4 col-md-6">
+                      <a href="https://tp1globe.visu6.ericwagner.fr/" target='_blank'>
                         <img src={Item5} alt="Image-description" />
                         <div className="info">
-                          <h3 className="title">Web Design</h3>
-                          <span className="post">project</span>
+                          <h3 className="title">Globe Three JS</h3>
+                          <span className="post">Projet</span>
                         </div>
                       </a>
                     </li>
                     {/* Mix Content Box */}
-                    <li className="mix graphic col-xl-3 col-lg-4 col-md-6">
-                      <a href={Item6} data-fancybox="gallery">
+                    <li className="mix seul front col-xl-3 col-lg-4 col-md-6">
+                      <a href="http://tp2environnement.visu6.ericwagner.fr/" target='_blank'>
                         <img src={Item6} alt="Image-description" />
                         <div className="info">
-                          <h3 className="title">Graphic Design</h3>
-                          <span className="post">project</span>
-                        </div>
-                      </a>
-                    </li>
-                    {/* Mix Content Box */}
-                    <li className="mix uiuxdesign webdevelopment webdesign graphic col-xl-3 col-lg-4 col-md-6">
-                      <a href={Item7} data-fancybox="gallery">
-                        <img src={Item7} alt="Image-description" />
-                        <div className="info">
-                          <h3 className="title">UI-UX Design</h3>
-                          <span className="post">project</span>
-                        </div>
-                      </a>
-                    </li>
-                    {/* Mix Content Box */}
-                    <li className="mix graphic col-xl-3 col-lg-4 col-md-6">
-                      <a href={Item8} data-fancybox="gallery">
-                        <img src={Item8} alt="Image-description" />
-                        <div className="info">
-                          <h3 className="title">Graphic Design</h3>
-                          <span className="post">project</span>
+                          <h3 className="title">Environnement Three JS</h3>
+                          <span className="post">Projet</span>
                         </div>
                       </a>
                     </li>

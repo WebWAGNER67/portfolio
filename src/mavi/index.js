@@ -17,7 +17,7 @@ const Gaspar = (props) => {
                     <Route path="/about" element={<About />} />
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="/blog" element={<Blog />} />
-                    <Route path="/blog-single" element={<BlogSingle />} />
+                    <Route path="/blog/:id" element={<BlogSingle />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
             </Layout>

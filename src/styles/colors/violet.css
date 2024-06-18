@@ -100,3 +100,8 @@
 .violet.cursor_animation .dot {
   background: #00a7c5;
 }
+
+
+.violet li > span {
+  color: #00a7c5;
+}

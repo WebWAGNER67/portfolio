@@ -48,8 +48,8 @@
   top: 15px;
   left: 15px;
   font-size: 20px;
-  -webkit-animation: spinner 2s linear infinite;
-  animation: spinner 2s linear infinite;
+  /*-webkit-animation: spinner 2s linear infinite;
+  animation: spinner 2s linear infinite;*/
 }
 
 .style-switch-wrapper button {
