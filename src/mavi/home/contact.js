@@ -46,7 +46,7 @@ const Contact = () => {
     <React.Fragment>
       <Helmet>
         {/* SEO Page title tag */}
-        <title>Contact Mavi - Personal Portfolio React Template</title>
+        <title>Contact - Eric WAGNER - Portfolio Personnel</title>
         {/* Meta description */}
         <meta name="description" content="Portfolio Personnel - Eric WAGNER - Développeur WEB" />;
 

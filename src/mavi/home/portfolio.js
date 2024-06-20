@@ -40,7 +40,7 @@ const Portfolio = () => {
     <React.Fragment>
       <Helmet>
         {/* SEO Page title tag */}
-        <title>Portfolio Mavi - Personal Portfolio React Template</title>
+        <title>Portfolio - Eric WAGNER - Portfolio Personnel</title>
         {/* Meta description */}
         <meta name="description" content="Portfolio Personnel - Eric WAGNER - Développeur WEB" />;
 

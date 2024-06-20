@@ -39,7 +39,7 @@ const BlogSingle = () => {
     <React.Fragment>
       <Helmet>
         {/* SEO Page title tag */}
-        <title>{blog.title} {blog.author} - Personal Portfolio React Template</title>
+        <title>{blog.title} {blog.author} - Eric WAGNER - Portfolio Personnel</title>
         {/* Meta description */}
         <meta name="description" content="Portfolio Personnel - Eric WAGNER - Développeur WEB" />;
 
