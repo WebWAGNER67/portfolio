@@ -88,6 +88,12 @@ const BlogSingle = () => {
                     <span><i className="fa fa-tags"></i> {blog.tags.map((tag) => (
                       <span>{tag},</span>
                     ))}</span>
+                    {blog.code !== "" && (
+                      <span><i className="fa fa-link"></i> <a href={blog.code} target="_blank" rel="noopener noreferrer">Code Source</a></span>
+                    )}
+                    {blog.link !== "" && (
+                      <span><i className="fa fa-link"></i> <a href={blog.link} target="_blank" rel="noopener noreferrer">Lien</a></span>
+                    )}
                   </div>
                 </div>
               </div>
