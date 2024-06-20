@@ -31,17 +31,17 @@ const Navbar = () => {
                         <li className={`list ${pathname === '/portfolio' ? "active" : ''}`} onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}>
                             <NavLink to='/portfolio'>
                                 <span className="icon">
-                                    <i className="fas fa-briefcase"></i>
+                                    <i className="fas fa-file-archive"></i>
                                 </span>
                                 <div className="social__tooltip social__tooltip-bottom">Portfolio</div>
                             </NavLink>
                         </li>
-                        <li className={`list ${pathname === '/blog' ? "active" : ''}`} onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}>
-                            <NavLink to='/blog'>
+                        <li className={`list ${pathname === '/projects' ? "active" : ''}`} onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}>
+                            <NavLink to='/projects'>
                                 <span className="icon">
-                                    <i className="fas fa-blog"></i>
+                                    <i className="fas fa-file-code"></i>
                                 </span>
-                                <div className="social__tooltip social__tooltip-bottom">Blog</div>
+                                <div className="social__tooltip social__tooltip-bottom">Projets</div>
                             </NavLink>
                         </li>
                         <li className={`list ${pathname === '/contact' ? "active" : ''}`} onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}>

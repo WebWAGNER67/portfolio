@@ -41,24 +41,24 @@ const BlogSingle = () => {
         {/* SEO Page title tag */}
         <title>{blog.title} {blog.author} - Personal Portfolio React Template</title>
         {/* Meta description */}
-        <meta name="description" content="Bootstrap 5 Responsive Blog Single Page Mavi - Personal Portfolio React Template" />;
+        <meta name="description" content="Portfolio Personnel - Eric WAGNER - Développeur WEB" />;
 
         {/* Twitter card meta tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://avstechnolabs.com/og-images/seo-banner.png" />
-        <meta name="twitter:title" content="Blog Single Page Mavi - Personal Portfolio React Template" />
-        <meta name="twitter:creator" content="@Blog Single Page mavi" />
-        <meta name="twitter:site" content="@Blog Single Page mavi" />
-        <meta name="twitter:description" content="Bootstrap 5 Responsive Blog Single Page Mavi - Personal Portfolio React Template" />
+        <meta name="twitter:image" content="http://webwagner.fr/img/logo.svg" />
+        <meta name="twitter:title" content="Eric WAGNER - Portfolio Personnel" />
+        <meta name="twitter:creator" content="@webwagner67" />
+        <meta name="twitter:site" content="@webwagner67" />
+        <meta name="twitter:description" content="Portfolio Personnel - Eric WAGNER - Développeur WEB" />
 
         {/* Facebook card meta tags */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://mavi.avstechnolabs.com/blog-single" />
-        <meta property="og:title" content="Blog Single Page Mavi - Personal Portfolio React Template"
+        <meta property="og:url" content="https://portfolio.ericwagner.fr" />
+        <meta property="og:title" content="Eric WAGNER - Portfolio Personnel"
         />
-        <meta property="og:description" content="Bootstrap 5 Responsive Blog Single Page Mavi - Personal Portfolio React Template"
+        <meta property="og:description" content="Portfolio Personnel - Eric WAGNER - Développeur WEB"
         />
-        <meta property="og:image" content="https://avstechnolabs.com/og-images/seo-banner.png"
+        <meta property="og:image" content="http://webwagner.fr/img/logo.svg"
         />
       </Helmet>
       {/* Blog-page Section Start  */}

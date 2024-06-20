@@ -36,26 +36,26 @@ const Blog = () => {
     <React.Fragment>
       <Helmet>
         {/* SEO Page title tag */}
-        <title>Blog Mavi - Personal Portfolio React Template</title>
+        <title>Projets - Eric WAGNER - Portfolio Personnel</title>
         {/* Meta description */}
-        <meta name="description" content="Bootstrap 5 Responsive Blog Mavi - Personal Portfolio React Template" />;
+        <meta name="description" content="Portfolio Personnel - Eric WAGNER - Développeur WEB" />;
 
         {/* Twitter card meta tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://avstechnolabs.com/og-images/seo-banner.png" />
-        <meta name="twitter:title" content="Blog Mavi - Personal Portfolio React Template" />
-        <meta name="twitter:creator" content="@Blog mavi" />
-        <meta name="twitter:site" content="@Blog mavi" />
-        <meta name="twitter:description" content="Bootstrap 5 Responsive Blog Mavi - Personal Portfolio React Template" />
+        <meta name="twitter:image" content="http://webwagner.fr/img/logo.svg" />
+        <meta name="twitter:title" content="Eric WAGNER - Portfolio Personnel" />
+        <meta name="twitter:creator" content="@webwagner67" />
+        <meta name="twitter:site" content="@webwagner67" />
+        <meta name="twitter:description" content="Portfolio Personnel - Eric WAGNER - Développeur WEB" />
 
         {/* Facebook card meta tags */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://mavi.avstechnolabs.com/blog" />
-        <meta property="og:title" content="Blog Mavi - Personal Portfolio React Template"
+        <meta property="og:url" content="https://portfolio.ericwagner.fr" />
+        <meta property="og:title" content="Eric WAGNER - Portfolio Personnel"
         />
-        <meta property="og:description" content="Bootstrap 5 Responsive Blog Mavi - Personal Portfolio React Template"
+        <meta property="og:description" content="Portfolio Personnel - Eric WAGNER - Développeur WEB"
         />
-        <meta property="og:image" content="https://avstechnolabs.com/og-images/seo-banner.png"
+        <meta property="og:image" content="http://webwagner.fr/img/logo.svg"
         />
       </Helmet>
       {/* Blog section Start  */}
@@ -68,8 +68,8 @@ const Blog = () => {
               <div className="row ">
                 <div className="col-12">
                   <div className="section-title animate__animated animate__bounceInDown animate__delay-1s">
-                    <p className="common-desctiption">Check Out My Latest Blog Posts</p>
-                    <h1 className="common-title">My <span>Blog</span></h1>
+                    <p className="common-desctiption">Consultez mes projets les plus récents</p>
+                    <h1 className="common-title">Mes <span>Projets</span></h1>
                     <div className="animated-bar"></div>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ const Blog = () => {
                   <div key={blog.id} className="col-lg-4 col-md-6 col-sm-12">
                     <div className="single-post">
                       <div className="ih-item square effect">
-                        <Link to={`/blog/${blog.id}`} onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}>
+                        <Link to={`/project/${blog.id}`} onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}>
                           <div className="img">
                             <img src={getBlogImage(blog.id)} alt="img" />
                           </div>
@@ -94,7 +94,7 @@ const Blog = () => {
                         <div className="content-date">{blog.date}</div>
                         <div className="content-title">
                           <h5>
-                            <Link to={`/blog/${blog.id}`} onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}>
+                            <Link to={`/project/${blog.id}`} onMouseEnter={() => cursorChangeHandler("hovered")} onMouseLeave={() => cursorChangeHandler("")}>
                               {blog.title}
                             </Link>
                           </h5>

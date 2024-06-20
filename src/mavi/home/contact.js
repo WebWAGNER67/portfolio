@@ -1,7 +1,8 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { MouseContext } from "../context/mouseContext";
 import { Helmet } from 'react-helmet';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const { cursorChangeHandler } = useContext(MouseContext);
@@ -9,9 +10,8 @@ const Contact = () => {
   const currentYear = new Date().getFullYear();
 
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
+    user_name: '',
+    user_email: '',
     message: '',
   });
 
@@ -19,28 +19,28 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
+  const form = useRef();
+  const sendEmail = (e) => {
     e.preventDefault();
 
-    try {
-      // Send the form data to the server for email processing
-      const response = await fetch('/api/send-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
+    emailjs
+      .sendForm('service_nqxzzeh', 'template_s763q1f', form.current, {
+        publicKey: 'ZS1CUd9BryoHXTZF4',
+      })
+      .then(
+        () => {
+          // vider les champs du formulaire
+          setFormData({
+            user_name: '',
+            user_email: '',
+            message: '',
+          });
+          alert('Email sent successfully!');
         },
-        body: JSON.stringify(formData),
-      });
-
-      if (response.ok) {
-        alert('Email sent successfully!');
-      } else {
-        alert('Failed to send email. Please try again.');
-      }
-    } catch (error) {
-      console.error('Error sending email:', error);
-      alert('An error occurred. Please try again later.');
-    }
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   };
   return (
     <React.Fragment>
@@ -48,24 +48,24 @@ const Contact = () => {
         {/* SEO Page title tag */}
         <title>Contact Mavi - Personal Portfolio React Template</title>
         {/* Meta description */}
-        <meta name="description" content="Bootstrap 5 Responsive Contact Mavi - Personal Portfolio React Template" />;
+        <meta name="description" content="Portfolio Personnel - Eric WAGNER - Développeur WEB" />;
 
         {/* Twitter card meta tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://avstechnolabs.com/og-images/seo-banner.png" />
-        <meta name="twitter:title" content="Contact Mavi - Personal Portfolio React Template" />
-        <meta name="twitter:creator" content="@Contact mavi" />
-        <meta name="twitter:site" content="@Contact mavi" />
-        <meta name="twitter:description" content="Bootstrap 5 Responsive Contact Mavi - Personal Portfolio React Template" />
+        <meta name="twitter:image" content="http://webwagner.fr/img/logo.svg" />
+        <meta name="twitter:title" content="Eric WAGNER - Portfolio Personnel" />
+        <meta name="twitter:creator" content="@webwagner67" />
+        <meta name="twitter:site" content="@webwagner67" />
+        <meta name="twitter:description" content="Portfolio Personnel - Eric WAGNER - Développeur WEB" />
 
         {/* Facebook card meta tags */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://mavi.avstechnolabs.com/contact" />
-        <meta property="og:title" content="Contact Mavi - Personal Portfolio React Template"
+        <meta property="og:url" content="https://portfolio.ericwagner.fr" />
+        <meta property="og:title" content="Eric WAGNER - Portfolio Personnel"
         />
-        <meta property="og:description" content="Bootstrap 5 Responsive Contact Mavi - Personal Portfolio React Template"
+        <meta property="og:description" content="Portfolio Personnel - Eric WAGNER - Développeur WEB"
         />
-        <meta property="og:image" content="https://avstechnolabs.com/og-images/seo-banner.png"
+        <meta property="og:image" content="http://webwagner.fr/img/logo.svg"
         />
       </Helmet>
       {/* Contact section Start  */}
@@ -91,7 +91,7 @@ const Contact = () => {
                 <div className="row">
                   {/* Contact form  */}
                   <div className="col-lg-7 col-12 ">
-                    <form className="contact-form animate__animated animate__fadeInLeft animate__delay-2s" id="contact-form">
+                    <form className="contact-form animate__animated animate__fadeInLeft animate__delay-2s" id="contact-form" ref={form} onSubmit={sendEmail}>
                       <h4 className="content-title">Me Contacter</h4>
                       <div className="row">
                         <div className="col-12 col-md-6 form-group">
@@ -99,9 +99,9 @@ const Contact = () => {
                             className="form-control"
                             id="contact-name"
                             type="text"
-                            name="name"
+                            name="user_name"
                             placeholder="Nom"
-                            value={formData.name}
+                            value={formData.user_name}
                             onChange={handleChange}
                             required
                           />
@@ -111,21 +111,9 @@ const Contact = () => {
                             className="form-control"
                             id="contact-email"
                             type="email"
-                            name="email"
+                            name="user_email"
                             placeholder="Email"
-                            value={formData.email}
-                            onChange={handleChange}
-                            required
-                          />
-                        </div>
-                        <div className="col-12 form-group">
-                          <input
-                            className="form-control"
-                            id="contact-subject"
-                            type="text"
-                            name="subject"
-                            placeholder="Sujet"
-                            value={formData.subject}
+                            value={formData.user_email}
                             onChange={handleChange}
                             required
                           />
@@ -147,7 +135,6 @@ const Contact = () => {
                             className="clickbtn button-main button-scheme"
                             id="contact-submit"
                             type="submit"
-                            onClick={handleSubmit}
                           >
                             Envoyer
                           </button>
