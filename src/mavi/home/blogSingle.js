@@ -8,6 +8,7 @@ import Item3 from '../../images/protfolio/jeuduschlange.png'
 import Item4 from '../../images/protfolio/eaufaitsacrise.png'
 import Item5 from '../../images/protfolio/globethree.png'
 import Item6 from '../../images/protfolio/environnementthree.png'
+import Item7 from '../../images/protfolio/economieetgestion.png'
 import { Helmet } from 'react-helmet';
 import blogData from '../../datas/blog.json'
 
@@ -25,6 +26,8 @@ const getBlogImage = (id) => {
       return Item5;
     case 6:
       return Item6;
+    case 7:
+      return Item7;
     default:
       return Item1; // or a default image
   }
@@ -85,9 +88,12 @@ const BlogSingle = () => {
                 <div className="col-12  justify-content-center">
                   <div className="blog-header animate__animated animate__fadeInDown animate__delay-1s">
                     <span><i className="fa fa-user"></i> {blog.author}</span>
-                    <span><i className="fa fa-tags"></i> {blog.tags.map((tag) => (
-                      <span>{tag},</span>
-                    ))}</span>
+                    {/* tags empty */}
+                    {blog.tags.length !== 0 && (
+                      <span><i className="fa fa-tags"></i> {blog.tags.map((tag) => (
+                        <span>{tag},</span>
+                      ))}</span>
+                    )}
                     {blog.code !== "" && (
                       <span><i className="fa fa-link"></i> <a href={blog.code} target="_blank" rel="noopener noreferrer">Code Source</a></span>
                     )}

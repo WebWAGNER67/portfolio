@@ -7,6 +7,7 @@ import Item3 from '../../images/protfolio/jeuduschlange.png'
 import Item4 from '../../images/protfolio/eaufaitsacrise.png'
 import Item5 from '../../images/protfolio/globethree.png'
 import Item6 from '../../images/protfolio/environnementthree.png'
+import Item7 from '../../images/protfolio/economieetgestion.png'
 import { Helmet } from 'react-helmet';
 import blogData from '../../datas/blog.json'
 
@@ -24,6 +25,8 @@ const getBlogImage = (id) => {
       return Item5;
     case 6:
       return Item6;
+    case 7:
+      return Item7;
     default:
       return Item1; // or a default image
   }
